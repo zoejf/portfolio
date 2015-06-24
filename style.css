@@ -1,9 +1,15 @@
+
 body {
 	text-align:center;
 }
+.navbar {
+	background-color:rgba(112,178,178,.85);
+}
 .header {
-	padding:20px;
+	padding:0px 0px 10px 0px;
 	text-align:center;
+	font-size:800%;
+	font-family: 'Architects Daughter', cursive;
 }
 .col-lg-6 {
 	text-align:center;
@@ -13,4 +19,10 @@ p {
 		width:400px;
 		margin-left:auto;
 		margin-right:auto;
+}
+.project {
+	border-radius: 100px;
+}
+.item {
+	padding-bottom: 20px;
 }
