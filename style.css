@@ -117,3 +117,10 @@ a.socialIcon:hover, .socialHoverClass {
 .icoFacebook {
  background-image:url("/rsrc.php/v2/yr/r/zKo7REc5ryZ.png");   
 }
+
+footer .col-sm-6{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 120%;
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+}
