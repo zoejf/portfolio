@@ -6,7 +6,6 @@
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	    <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 	    <link rel="stylesheet" type="text/css" href="style.css">
 	     
@@ -34,102 +33,169 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-	<div class="container">
+<div class="container">
+
+<!-- TABS --> 
+	<div class="tabs"> 
+	<div class="btn btn-default" id="contactBtn" data-tab="contactMe">Contact</div> 
+	<div class="btn btn-default" id="projectBtn" data-tab="projectSection">Projects</div> 
+	<div class="btn btn-default" id="aboutBtn" data-tab="aboutSection">About Me</div> 
+	</div>
+
+	<!-- Projects Section -->
+	<div id="projectSection" style='display:block'>
 		<div class="header row">
 			<div class="col-lrg-12">
 					<h1>Projects</h1>
 			</div>
 		</div>
 		<div class="row">
-			<div class="item col-sm-6">
-					<img class="project img-responsive" src="http://www.smartinsights.com/wp-content/uploads/2014/08/BOX-IMAGE-118276621-500px-300px-400x300.jpg">
-					<br>
-					<br>
-					<p>Sint disrupt leggings, aute chillwave incididunt mollit quinoa typewriter VHS. Sint labore dolor banjo, heirloom nihil Truffaut exercitation normcore dolore pour-over Marfa aliqua.</p>
+			<div class="item col-sm-6 col-md-6">
+					<div class="panel panel-default">
+					  <div class="panel-body">
+					  	<img class="project" src="http://www.smartinsights.com/wp-content/uploads/2014/08/BOX-IMAGE-118276621-500px-300px-400x300.jpg">
+						<br>
+						<br>
+					  	<p>Sint disrupt leggings, aute chillwave incididunt mollit quinoa typewriter VHS. Sint labore dolor banjo, heirloom nihil Truffaut exercitation normcore dolore pour-over Marfa aliqua.</p>
+					  </div>
+					 </div> 	
 			</div>
-			<div class="item col-sm-6">
-				<img class="project img-responsive" src="https://d13yacurqjgara.cloudfront.net/users/583390/screenshots/1614637/bth_400x300px_.jpg">
-				<br>
-				<br>
-				<p>Lo-fi four dollar toast tilde fap mlkshk cold-pressed. Banksy chambray bespoke cronut salvia. McSweeney's brunch iPhone Thundercats proident. Ad next level Thundercats Portland.</p>
+			<div class="item col-sm-6 col-md-6">
+				<div class="panel panel-default">
+				  <div class="panel-body">
+				  	<img class="project" src="https://d13yacurqjgara.cloudfront.net/users/583390/screenshots/1614637/bth_400x300px_.jpg">
+					<br>
+					<br>
+					<p>Lo-fi four dollar toast tilde fap mlkshk cold-pressed. Banksy chambray bespoke cronut salvia. McSweeney's brunch iPhone Thundercats proident. Ad next level Thundercats Portland.</p>
+					</div>
+				 </div> 
 			</div>
 		</div>
 			<div class="row">
-			<div class="item col-sm-6">
-					<img class="project img-responsive" src="https://newsoffice.mit.edu/media-download?download_file=d20120501152015-2.jpg">
+			<div class="item col-sm-6 col-md-6">
+					<div class="panel panel-default">
+					  <div class="panel-body">
+					  	<img class="project" src="https://newsoffice.mit.edu/media-download?download_file=d20120501152015-2.jpg">
+						<br>
+						<br>
+						<p>Sint disrupt leggings, aute chillwave incididunt mollit quinoa typewriter VHS. Sint labore dolor banjo, heirloom nihil Truffaut exercitation normcore dolore pour-over Marfa aliqua.</p>
+					</div>
+				 </div> 
+			</div>
+			<div class="item col-sm-6 col-md-6">
+				<div class="panel panel-default">
+				  <div class="panel-body">
+				  	<img class="project" src="https://d13yacurqjgara.cloudfront.net/users/122977/screenshots/1731475/igg_sxsw2015_lockup_400x300px.jpg">
 					<br>
 					<br>
-					<p>Sint disrupt leggings, aute chillwave incididunt mollit quinoa typewriter VHS. Sint labore dolor banjo, heirloom nihil Truffaut exercitation normcore dolore pour-over Marfa aliqua.</p>
-			</div>
-			<div class="item col-lg-6">
-				<img class="project" src="https://d13yacurqjgara.cloudfront.net/users/122977/screenshots/1731475/igg_sxsw2015_lockup_400x300px.jpg">
-				<br>
-				<br>
-				<p>Lo-fi four dollar toast tilde fap mlkshk cold-pressed. Banksy chambray bespoke cronut salvia. McSweeney's brunch iPhone Thundercats proident. Ad next level Thundercats Portland.</p>
+					<p>Lo-fi four dollar toast tilde fap mlkshk cold-pressed. Banksy chambray bespoke cronut salvia. McSweeney's brunch iPhone Thundercats proident. Ad next level Thundercats Portland.</p>
+				  </div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<footer>
-<div class="container">
-	<div class="row">
-		<div class="col-sm-3">
+
+	<!-- Contact me section -->
+	<div id="contactMe" style='display:none'>	
+		<div class="header row">
+			<div class="col-lrg-12">
+				<h1>Contact</h1>
+			</div>
 		</div>
-		<div class="col-sm-6">
-		        Contact me about one of my projects!
+		<div class="row">
+			<div class="col-sm-3">
+			</div>
+			<div class="col-sm-6">
+				<p>zoejfoss at gmail.com</p>
+				<p>518-339-3285</p>
+				<p>San Francisco, CA</p>
+				<br>			
+				<br>
+				<br>
+				<p>Send me an email here and I'll get back to you as soon as possible.</p>
+				<br>
+			</div>
+			<div class="col-sm-3">
+			</div>
 		</div>
-		<div class="col-sm-3">
+		<div class="row">
+			<div class="col-sm-3">
+			</div>
+			<div class="col-sm-6">
+				<form class="form-horizontal" role="form" method="post" action="index.php">
+				    <div class="form-group">
+				        <label for="name" class="col-sm-2 control-label">Subject</label>
+				        <div class="col-sm-10">
+				            <input type="text" class="form-control" id="name" name="name" placeholder="Email Subject" value="">
+				        </div>
+				    </div>
+				    <div class="form-group">
+				        <label for="email" class="col-sm-2 control-label">Email</label>
+				        <div class="col-sm-10">
+				            <input type="email" class="form-control" id="email" name="email" placeholder="youremailaddress@domain.com" value="">
+				        </div>
+				    </div>
+				    <div class="form-group">
+				        <label for="message" class="col-sm-2 control-label">Message</label>
+				        <div class="col-sm-10">
+				            <textarea class="form-control" id="message" rows="4" name="message"></textarea>
+				        </div>
+				    </div>
+				    <div class="form-group">
+				        <div class="col-sm-10 col-sm-offset-2">
+				            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+				        </div>
+				    </div>
+				    <div class="form-group">
+				        <div class="col-sm-10 col-sm-offset-2">
+				            <! Will be used to display an alert to the user>
+				        </div>
+				    </div>
+				</form>
+			</div>
+			<div class="col-sm-3">
+			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-sm-3">
+
+	<!-- About Me Section -->
+	<div id="aboutSection" style='display:none'>
+		<div class ="header row">
+			<div class="col-sm-12">
+					<h1>About Me</h1>
+			</div>
 		</div>
-		<div class="col-sm-6">
-<form class="form-horizontal" role="form" method="post" action="index.php">
-    <div class="form-group">
-        <label for="name" class="col-sm-2 control-label">Subject</label>
-        <div class="col-sm-10">
-            <input type="text" class="form-control" id="name" name="name" placeholder="Email Subject" value="">
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="email" class="col-sm-2 control-label">Email</label>
-        <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" name="email" placeholder="youremailaddress@domain.com" value="">
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="message" class="col-sm-2 control-label">Message</label>
-        <div class="col-sm-10">
-            <textarea class="form-control" id="message" rows="4" name="message"></textarea>
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-sm-10 col-sm-offset-2">
-            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-sm-10 col-sm-offset-2">
-            <! Will be used to display an alert to the user>
-        </div>
-    </div>
-</form>
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<div class="panel panel-default">
+				  <div class="panel-body">
+					<img src="http://i.imgur.com/M7jZzIg.jpg" id="portrait" title="source: imgur.com" />					  
+				  </div>
+				</div>
+			</div>
+			<div class="col-sm-4"></div>
 		</div>
-		<div class="col-sm-3">
-		</div>
-	<div class="row">
-		<div class="col-md-12">
-                <ul class="social-network social-circle">
-                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                </ul>				
-		</div>
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+			<p>Lo-fi four dollar toast tilde fap mlkshk cold-pressed. Banksy chambray bespoke cronut salvia. McSweeney's brunch iPhone Thundercats proident. Ad next level Thundercats Portland.</p>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>		
 	</div>
+
 </div>
+</div>
+	<footer>
+		<div class="row">
+		<div class="col-md-12">
+                Copyright Zoe Foss 2015
+		</div>
+	</div>
 	</footer>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="scripts.js"></script>
 </body>
 </html>

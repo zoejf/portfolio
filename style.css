@@ -14,10 +14,14 @@ body {
 	text-align:center;
 }
 p {
-		word-wrap:break-word;
-		width:400px;
-		margin-left:auto;
-		margin-right:auto;
+	word-wrap:break-word;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.project p{
+	width:400px;
+
 }
 .project {
 	border-radius: 100px;
@@ -36,6 +40,21 @@ footer {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 15px;
 }
+
+
+#contactMe {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 120%;
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+}
+
+#portrait {
+	height:300px;
+	border-radius: 50px;
+}
+
+
 /* footer social icons */
 ul.social-network {
 	list-style: none;
@@ -118,9 +137,4 @@ a.socialIcon:hover, .socialHoverClass {
  background-image:url("/rsrc.php/v2/yr/r/zKo7REc5ryZ.png");   
 }
 
-footer .col-sm-6{
-	font-family: 'Architects Daughter', cursive;
-	font-size: 120%;
-	padding: 20px 0px 0px 0px;
-	text-align: center;
-}
+
